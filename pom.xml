@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.axoniq.demo</groupId>
-    <artifactId>giftcard-demo</artifactId>
+    <groupId>lambyui.kanban</groupId>
+    <artifactId>kanban</artifactId>
     <version>4.5</version>
     <packaging>jar</packaging>
 
-    <name>giftcard-demo</name>
-    <description>Axon Framework demo project</description>
+    <name>kanban.board</name>
+    <description>no</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -149,6 +149,13 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
         </dependency>
     </dependencies>
 
